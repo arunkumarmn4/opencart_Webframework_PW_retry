@@ -27,6 +27,8 @@ dist/
 
 # auth
 src/data/auth.json
+src/data/loginData.json
+src/data/loginData.csv
 
 # OS files
 .DS_Store
