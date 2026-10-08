@@ -60,7 +60,7 @@ jobs:
         if: steps.playwright-cache.outputs.cache-hit != 'true'
         uses: actions/cache@v4
         with:
-          path: ~/.cache/ms-playwright
+          path: /home/runner/.cache/ms-playwright
           key: playwright-${{ hashFiles('package-lock.json') }}
 
       # reportingLabs run history: powers the Trend chart, new vs known
